@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      body {background-color: powderblue;}
-      
-ul {
+<title>Mech Pencils</title>
+  <meta charset="utf-8">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <style>
+  body 
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #C1C1C1;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+    background-color: #707070;
+   
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 li {
@@ -30,45 +33,80 @@ li:last-child {
 
 li a {
     display: block;
-    color: white;
+    color: #555;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #ddd;
+    background-color: white;
 }
 
-.active {
-    background-color: #555;
-}
-      </style>
+  
+  {
+      position: relative; 
+  }
+  #home {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #about {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #products {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #contact {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #news {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
 </head>
-<body>
-  <ul>
-    
-     <li><a class="active" href="https://grantbork.github.io/mechpencils/index.html">Home</a></li>
-    <li style="float:right"><a href="https://grantbork.github.io/mechpencils/about.html">About Us</a></li>
-    <li style="float:right"><a href="https://grantbork.github.io/mechpencils/products.html">Products</a></li>
-    <li style="float:right"><a href="https://grantbork.github.io/mechpencils/contact.html">Contact Us</a></li>
-    <li style="float:right"><a href="https://grantbork.github.io/mechpencils/news.html">News</a></li>
-     
-    </ul>
-  
-  
-  <div style="margin-left:5%;padding:25px 16px;height:1000px;">
-    
-  <h2>Mech Pencils</h2>
-  <h3>
-<p> Here at Mech Pencils we design and create the best and most efficient mechanical pencils ever!!!
-    Our partnering business (
-<a href="https://pointpencils.github.io/pointpencils/index.html" target="_blank">POINT PENCILS</a> 
-) agrees! At Mech Pencils you can trust us. We constantly our striving to meet our customers needs, and to provide them with the best Mechanical Pencil experience possible. We our constantly recreating and reinventing the pencil world. Every day Mech Pencils is making mechanical pencils more efficient and technologicaly advanced to fit the modern day world.
-</p>
- 
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">MechPencils</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#home"> Home</a></li>
+          <li><a href="#about"> About Us</a></li>
+          <li><a href="#products"> Products</a></li>
+            <li><a href="#contact"> Contact Us</a></li>
+              <li><a href="#news"> News</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="home" class="container-fluid">
+  <h1>Home</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
-  
-    
-    </body>
+<div id="about" class="container-fluid">
+  <h1>About Us </h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="products" class="container-fluid">
+  <h1>Products</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="contact" class="container-fluid">
+  <h1>Contact Us</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="news" class="container-fluid">
+  <h1>News</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+</body>
 </html>
