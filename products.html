@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Simpleicons_Business_pencil-on-a-notes-paper.svg/2000px-Simpleicons_Business_pencil-on-a-notes-paper.svg.png"/>
-    <title> 
-      Our Products
-    </title>
-    <style> 
-      
-      body {
-        background-color: #ff9800;
-      }
-      
-      div.relative {
+<head>
+
+<link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Simpleicons_Business_pencil-on-a-notes-paper.svg/2000px-Simpleicons_Business_pencil-on-a-notes-paper.svg.png"/>
+
+  <title>Our Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+      background-color: #ff9800; 
+  }
+  #slimjim {padding-top:50px;height:500px;color: black; background-color: #ff9800;}
+  #fineline {padding-top:50px;height:500px;color: black; background-color: #ff9800;}
+  #oldfasion {padding-top:50px;height:500px;color: black; background-color: #ff9800;}
+  #colorpencil {padding-top:50px;height:500px;color: black; background-color: #ff9800;}
+  #bigboy {padding-top:50px;height:500px;color: black; background-color: #ff9800;}
+  
+  div.relative {
     position: relative;
     width: 1300px;
     height: 500px;
@@ -72,11 +82,39 @@ div.desc {
     color: white;
 }
 .button5 {border-radius: 4px;}
-      
-    </style>
-  </head>
-  <body>
-    <h1>Slim Jim (Tech Pencil)</h1>   
+
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Our Products</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#slimjim">Slim Jim</a></li>
+          <li><a href="#fineline">Fine Line</a></li>
+          <li><a href="#oldfasion">Old Fasion</a></li>
+          <li><a href="#colorpencil">Color Pencil</a></li>
+          <li><a href="#bigboy">Big Boy</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="slimjim" class="container-fluid">
+  <h1>Slim Jim (Tech Pencil)</h1>   
      <div class="relative">
  <div class="gallery">
   <a target="_blank" href="https://c1.staticflickr.com/2/1501/24569461489_71dc4710d7_b.jpg" alt="Slim Jim">
@@ -88,8 +126,9 @@ div.desc {
   <div class="absolute">This is one of the most technologically advanced pencils in the world. It will sense how hard you right and adjust the lead despensage amount so that you do not break
       your lead. Its technology is able to use any type of lead imaginable for all diffrent types of writing styles and fonts.</div>
 </div>
-    
-      <h1>Fine Line Pencil</h1>     
+
+<div id="fineline" class="container-fluid">
+  <h1>Fine Line Pencil</h1>     
       <div class="relative">
  <div class="gallery">
   <a target="_blank" href="https://d2rormqr1qwzpz.cloudfront.net/photos/2015/04/07/75244-71rezf4adl.jpg" alt="Fine Line">
@@ -100,8 +139,9 @@ div.desc {
 <button class="button button5">Add to Cart</button>
   <div class="absolute">This may look like a normal pencil, but this image is acutally enhanced by x100. This pencil is uses 0.01mm lead to write in the finist line structure possible.</div>
 </div>
-    
-      <h1>Old Fasion</h1>
+
+<div id="oldfasion" class="container-fluid">
+  <h1>Old Fasion</h1>
          <div class="relative">
  <div class="gallery">
   <a target="_blank" href="http://wendiaarons.com/wp-content/uploads/2011/05/pencil.jpg" alt="Old Fasion">
@@ -112,8 +152,9 @@ div.desc {
 <button class="button button5">Add to Cart</button>
   <div class="absolute">This is the old fasion pencil. It may look like just a regular, average, every day wooden pencil, but it is actually a mechanical pencil.</div>
 </div>
-        
-      <h1>Color Pencil</h1>
+
+<div id="colorpencil" class="container-fluid">
+   <h1>Color Pencil</h1>
         <div class="relative">
  <div class="gallery">
   <a target="_blank" href="https://c1.staticflickr.com/2/1484/24461631371_e228092231_b.jpg" alt="Color Pencil">
@@ -127,8 +168,9 @@ div.desc {
   </p>
   </div>
 </div>
-        
-      <h1>Big Boy</h1>
+
+<div id="bigboy" class="container-fluid">
+   <h1>Big Boy</h1>
         <div class="relative">
  <div class="gallery">
   <a target="_blank" href="https://images-na.ssl-images-amazon.com/images/I/614CyUort5L._SX425_.jpg" alt="Big Boy">
@@ -139,5 +181,6 @@ div.desc {
 <button class="button button5">Add to Cart</button>
   <div class="absolute">Big Boy Pencil</div>
 </div>
-  </body>
+
+</body>
 </html>
