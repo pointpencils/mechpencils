@@ -10,6 +10,77 @@
         background-color: #ff9800;
       }
       
+      div.relative {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 3px solid #73AD21;
+} 
+
+div.absolute {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 275px;
+    height: 360px;
+    border: 3px solid #73AD21;
+    margin: 10px;
+    font-size: 30px;
+}
+
+div.gallery {
+    margin: 20px 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 275px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0.1px 200px 20px 10px;
+    height: 105px;
+    width: 277px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button5 {border-radius: 4px;}
+
+      
     </style>
   </head>
   <body>
@@ -32,8 +103,16 @@
       <h2>This is our Color Pencil. It lets you right in any color you can think of. simply use the touch screen on the pencil and adjust all the color settings on the pencil to find what color you are looking for.</h2>
         
       <h1>Big Boy</h1>
-      <image src="https://images-na.ssl-images-amazon.com/images/I/614CyUort5L._SX425_.jpg" alt="Big Boy" height= 500px width= 500px >
-      <h2>This is our Big Boy Pencil. This pencil is the biggest mechanical pencil ever made. Standing at 3ft tall, this pencil can write
-        in the biggest font size possible in writing.</h2>
+        <div class="relative">
+
+ <div class="gallery">
+  <a target="_blank" href="https://images-na.ssl-images-amazon.com/images/I/614CyUort5L._SX425_.jpg" alt="Big Boy">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/614CyUort5L._SX425_.jpg" alt="Big Boy" width="600" height="400">
+  </a>
+  <div class="desc">Big Boy</div>
+</div>
+<button class="button button5">Add to Cart</button>
+  <div class="absolute">Big Boy Pencil</div>
+</div>
   </body>
 </html>
