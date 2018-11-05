@@ -6,53 +6,35 @@
       <style>
          body {
          background-color: #009688;
+         text-align: center;
          }
-         
- * {
-    box-sizing: border-box;
-}
-
-.column {
-    float: left;
-    width: 33.3%;
-    padding: 10px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-    .column {
-        width: 100%;
-    }
-}
+         div.container {
+         display:inline-block;
+         }
+         p {
+         text-align:center;
+         }
       </style>
    </head>
    <body>
-     
-     <div class="row">
-       <div class="column">
+      <div class="container">
          <script type="text/javascript">
             var bannersnack_embed = {"hash":"bdn3g88jd","width":160,"height":600,"t":1541341993,"userId":38370335,"type":"html5"};
          </script>
          <script type="text/javascript" src="//cdn.bannersnack.com/iframe/embed.js"></script>
-      </div>  
-        <div class="column">
-           <h1>Mechanical Pencil Simulator</h1>
-             <script src=https://phosphorus.github.io/embed.js?id=28559798&auto-start=true&light-content=false></script>
-           <h2>Tap the space bar to play</h2> 
-         </div> 
-        <div class="column">
-        <script type="text/javascript">
-           var bannersnack_embed = {"hash":"b1kibff97","width":160,"height":600,"t":1541342750,"userId":38370335,"type":"html5"};
-        </script>
-        <script type="text/javascript" src="//cdn.bannersnack.com/iframe/embed.js"></script>
+         <p>This is image 1</p>
       </div>
-    </div>
+      <div class="container">
+         <script src=https://phosphorus.github.io/embed.js?id=28559798&auto-start=true&light-content=false></script>
+         <p>This is image 2</p>
+      </div>
+      <div class="container">
+         <script type="text/javascript">
+            var bannersnack_embed = {"hash":"b1kibff97","width":160,"height":600,"t":1541342750,"userId":38370335,"type":"html5"};
+         </script>
+         <script type="text/javascript" src="//cdn.bannersnack.com/iframe/embed.js"></script>
+         <p>This is image 3</p>
+      </div>
    </body>
 </html>
+COPY TO CLIPBOARD
